@@ -1,41 +1,38 @@
-/* Resetando os estilos padrões do navegador */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-  }
-  
-  header {
-    background-color: #001e89;
-    color: white;
-    padding: 20px;
-  }
-  
-  .h1 {
-    font-size: 2.5em;
-  }
-  
-  .main {
-    padding: 20px;
-  }
-  
-  .imagem{
-    width: 1680px;
-    height: 247px;/*definir uma altura fixa*/
-    border-radius: 10px;
-  }
-  #quemsomos {
-    background-color: #e4e4e4;
-    padding: 40px;
-    margin-top: 20px;
-  }
-  
-  #quemsomos h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+*{
+
+
+    padding: 0px; /* zerei o padding*/
+    margin: 0px; /*zerei o margin*/
+    box-sizing: border-box; /*zerei*/
+    
+    display: flex; /* um ao lado do outro*/
+    justify-content: space-between;
+
+}
+
+
+.cabecalho{
+
+    width: 100vw; /* 100 da horizontal */
+    height: 71px;
+background-color:#3750B3;
+
+}
+
+.cabecalho p{
+
+color: white;
+margin-right: 20px;
+
+}
+
+.left{
+
+    margin-left: 80px;
+}
+
+.right{
+
+    display: flex;
+margin-right: 60px;
+}
