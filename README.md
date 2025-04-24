@@ -1,2 +1,2 @@
-# sena-dev-front
+# senai-dev-front
 Repositorio criado para guardar meus arquivos do curso
